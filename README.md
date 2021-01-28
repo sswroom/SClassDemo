@@ -1,6 +1,6 @@
 # SClassDemo
 
-A project to demonstrate how to use the SClass to develop applications.
+A project to demonstrate how to use the [SClass](http://github.com/sswroom/SClass) to develop applications.
 
 You must SClassDemo directory alongside with SClass
 To compile the demo program in Linux (x64), go to SClass/build/Linux_x64
