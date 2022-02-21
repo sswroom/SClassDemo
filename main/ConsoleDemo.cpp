@@ -7,7 +7,7 @@
 Int32 MyMain(Core::IProgControl *progCtrl)
 {
     IO::ConsoleWriter writer;
-    writer.WriteLine((const UTF8Char*)"Console Demo run successfully.");
-    writer.WriteLine((const UTF8Char*)HEADERMESSAGE);
+    writer.WriteLineC(UTF8STRC("Console Demo run successfully."));
+    writer.WriteLineC(UTF8STRC(HEADERMESSAGE));
     return 0;
 }

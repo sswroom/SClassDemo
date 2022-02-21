@@ -12,7 +12,7 @@ Int32 MyMain(Core::IProgControl *progCtrl)
         UI::GUIForm *frm;
         NEW_CLASS(frm, UI::GUIForm(0, 640, 480, core));
         frm->SetExitOnClose(true);
-        frm->SetText((const UTF8Char*)"GUI Demo");
+        frm->SetText(CSTR("GUI Demo"));
         frm->Show();
         core->Run();
         DEL_CLASS(core);
