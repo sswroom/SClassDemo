@@ -4,7 +4,7 @@
 #include "UI/GUICore.h"
 #include "UI/GUIForm.h"
 
-Int32 MyMain(NotNullPtr<Core::IProgControl> progCtrl)
+Int32 MyMain(NotNullPtr<Core::ProgControl> progCtrl)
 {
     NotNullPtr<UI::GUICore> core;
     if (progCtrl->CreateGUICore(progCtrl).SetTo(core))

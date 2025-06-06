@@ -4,7 +4,7 @@
 
 #include "Demo.h"
 
-Int32 MyMain(NotNullPtr<Core::IProgControl> progCtrl)
+Int32 MyMain(NotNullPtr<Core::ProgControl> progCtrl)
 {
     IO::ConsoleWriter writer;
     writer.WriteLine(CSTR("Console Demo run successfully."));
